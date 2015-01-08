@@ -50,8 +50,8 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'https://php-mdrawing.rhcloud.com/;
 $db['default']['username'] = 'adminuBadVVh';
-$db['default']['password'] = '';
-$db['default']['database'] = 'pHmg8lJXWatq';
+$db['default']['password'] = 'pHmg8lJXWatq';
+$db['default']['database'] = 'bookshop';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
