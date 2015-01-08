@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
+$db['default']['hostname'] = 'https://php-mdrawing.rhcloud.com/phpmyadmin/';
+$db['default']['username'] = 'adminuBadVVh';
 $db['default']['password'] = '';
-$db['default']['database'] = 'bookshop';
+$db['default']['database'] = 'pHmg8lJXWatq';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
