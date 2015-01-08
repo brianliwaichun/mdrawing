@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'https://php-mdrawing.rhcloud.com/';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'adminuBadVVh';
 $db['default']['password'] = 'pHmg8lJXWatq';
 $db['default']['database'] = 'bookshop';
