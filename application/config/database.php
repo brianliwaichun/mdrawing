@@ -48,11 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$db['default']['port'] = getenv('OPENSHIFT_MYSQL_DB_PORT');
-$db['default']['username'] = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
-$db['default']['password'] = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
-$db['default']['database'] = php;
+$db['default']['hostname'] = 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/';
+$db['default']['username'] = 'admin196Zasj';
+$db['default']['password'] = '1K9enpDa8apa';
+$db['default']['database'] = 'cms';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -64,6 +63,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
